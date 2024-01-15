@@ -1,0 +1,23 @@
+include: package:very_good_analysis/analysis_options.5.1.0.yaml
+
+analyzer:
+  errors:
+    deprecated_member_use: warning
+
+  language:
+    strict-casts: true
+    strict-raw-types: true
+
+linter:
+
+  rules:
+    unawaited_futures: true
+    cancel_subscriptions: true
+    lines_longer_than_80_chars: false
+    public_member_api_docs: true
+    sort_constructors_first: true
+    sort_pub_dependencies: false
+    empty_constructor_bodies: true
+    prefer_const_constructors: true
+    prefer_const_constructors_in_immutables: true
+    use_enums: true
