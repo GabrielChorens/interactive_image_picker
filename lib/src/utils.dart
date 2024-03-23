@@ -12,7 +12,6 @@ Future<File> _cropSaveAndReturnImage({
 
   final newImagePath = await screenshotController.captureAndSave(
     '$path$fileName.png',
-    fileName: fileName,
     delay: const Duration(milliseconds: 10),
     //To maintain the same quality of the original image
     pixelRatio: View.of(context).devicePixelRatio,

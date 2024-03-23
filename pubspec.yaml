@@ -1,8 +1,6 @@
 name: interactive_image_picker
 description: "Handy widget that allows to manipulate picked images and retrieve them as wished."
-homepage: https://github.com/GabrielChorens/interactive_image_picker
-version: 1.0.0
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 0.0.1
 
 environment:
   sdk: '>=3.2.3 <4.0.0'

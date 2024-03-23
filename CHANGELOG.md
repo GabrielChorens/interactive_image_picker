@@ -1,4 +1,4 @@
-## 1.0.0 - Initial Release
+## 0.0.1 - Initial Release
 
 ### Added
 - InteractiveImagePicker widget that allows the user to select an image from the gallery or take a picture with the camera.
