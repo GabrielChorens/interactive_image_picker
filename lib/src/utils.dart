@@ -11,12 +11,12 @@ Future<File> _cropSaveAndReturnImage({
   final fileName = DateTime.now().microsecondsSinceEpoch.toString();
 
   final newImagePath = await screenshotController.captureAndSave(
-    '$path$fileName.png',
+    path,
+    fileName: '$fileName.jpg',
     delay: const Duration(milliseconds: 10),
     //To maintain the same quality of the original image
     pixelRatio: View.of(context).devicePixelRatio,
   );
-
   if (newImagePath == null) {
     throw Exception('Error while saving image.');
   }
