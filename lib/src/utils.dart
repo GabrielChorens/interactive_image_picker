@@ -11,7 +11,7 @@ Future<File> _cropSaveAndReturnImage({
   final fileName = DateTime.now().microsecondsSinceEpoch.toString();
 
   final newImagePath = await screenshotController.captureAndSave(
-    path,
+    '$path$fileName.png',
     fileName: fileName,
     delay: const Duration(milliseconds: 10),
     //To maintain the same quality of the original image
